@@ -1,12 +1,14 @@
 //
 //  ViewController.m
-//  CRProtocolManager1
+//  CRProtocolManager
 //
-//  Created by luokehua on 2019/10/18.
-//  Copyright © 2019 luokehua. All rights reserved.
+//  Created by Charon on 16/12/18.
+//  Copyright © 2016年 Charon. All rights reserved.
 //
 
 #import "ViewController.h"
+#import "CRProtocolManager.h"
+
 
 @interface ViewController ()
 
@@ -16,7 +18,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [CRProtocolManager registServiceProvide:self forProtocol:@protocol(TestProtocol)];
+    
+    id<TestProtocol>provide = [CRProtocolManager serviceProvideForProtocol:@protocol(TestProtocol)];
+}
+
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 
 

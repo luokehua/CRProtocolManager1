@@ -1,12 +1,18 @@
 //
 //  ViewController.h
-//  CRProtocolManager1
+//  CRProtocolManager
 //
-//  Created by luokehua on 2019/10/18.
-//  Copyright © 2019 luokehua. All rights reserved.
+//  Created by Charon on 16/12/18.
+//  Copyright © 2016年 Charon. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+
+@protocol TestProtocol <NSObject>
+
+- (void)test;
+
+@end
 
 @interface ViewController : UIViewController
 

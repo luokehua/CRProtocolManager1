@@ -15,8 +15,8 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "CRProtocolManager2"
-  spec.version      = "0.0.4"
+  spec.name         = "CRProtocolManager1"
+  spec.version      = "0.0.5"
   spec.summary      = "A short description of CRProtocolManager1."
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-                      This is CRProtocolManager2
+                      This is CRProtocolManager1
                    DESC
 
   spec.homepage     = "https://github.com/luokehua/CRProtocolManager1.git"
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "CRProtocolManager2", "CRProtocolManager2/CRProtocolManager/**/*.{h,m}"
+  spec.source_files  = "CRProtocolManager1", "CRProtocolManager1/CRProtocolManager/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -117,7 +117,7 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  # spec.framework  = "SomeFramework"
+  spec.framework  = "UIKit"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"

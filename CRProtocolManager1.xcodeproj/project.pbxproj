@@ -13,6 +13,7 @@
 		FFCE21E52359989200D78480 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFCE21E42359989200D78480 /* Assets.xcassets */; };
 		FFCE21E82359989200D78480 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFCE21E62359989200D78480 /* LaunchScreen.storyboard */; };
 		FFCE21EB2359989200D78480 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFCE21EA2359989200D78480 /* main.m */; };
+		FFCE220D23599A4700D78480 /* CRProtocolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FFCE220C23599A4700D78480 /* CRProtocolManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		FFCE21E72359989200D78480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFCE21E92359989200D78480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFCE21EA2359989200D78480 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFCE220B23599A4700D78480 /* CRProtocolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRProtocolManager.h; sourceTree = "<group>"; };
+		FFCE220C23599A4700D78480 /* CRProtocolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRProtocolManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		FFCE21DA2359989000D78480 /* CRProtocolManager1 */ = {
 			isa = PBXGroup;
 			children = (
+				FFCE220A23599A4700D78480 /* CRProtocolManager */,
 				FFCE21DB2359989000D78480 /* AppDelegate.h */,
 				FFCE21DC2359989000D78480 /* AppDelegate.m */,
 				FFCE21DE2359989000D78480 /* ViewController.h */,
@@ -69,6 +73,15 @@
 				FFCE21EA2359989200D78480 /* main.m */,
 			);
 			path = CRProtocolManager1;
+			sourceTree = "<group>";
+		};
+		FFCE220A23599A4700D78480 /* CRProtocolManager */ = {
+			isa = PBXGroup;
+			children = (
+				FFCE220B23599A4700D78480 /* CRProtocolManager.h */,
+				FFCE220C23599A4700D78480 /* CRProtocolManager.m */,
+			);
+			path = CRProtocolManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFCE220D23599A4700D78480 /* CRProtocolManager.m in Sources */,
 				FFCE21E02359989000D78480 /* ViewController.m in Sources */,
 				FFCE21EB2359989200D78480 /* main.m in Sources */,
 				FFCE21DD2359989000D78480 /* AppDelegate.m in Sources */,
